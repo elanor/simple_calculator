@@ -17,11 +17,11 @@ window.addValue = function (element) {
       expression.value = element.innerText;
     }
   } else {
-      window.reset();
-      notEmpty = false;
-      expression.value += element.innerText;
-    }
-  };
+    window.reset();
+    notEmpty = false;
+    expression.value += element.innerText;
+  }
+};
 
 window.result = function () {
   let expression = document.querySelector(".phrase");

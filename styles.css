@@ -3,34 +3,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  input,
-  .calculation {
+}
+
+input,
+.calculation {
     grid-column: 1 / -1;
     height: 40px;
     font-size: 22px;
     border-radius: 5px;
-  }
+}
 
-  input {
-      text-align: flex-end;
-  }
-  
-  .calculation,
-  .sign {
+input {
+    text-align: flex-end;
+}
+
+.calculation,
+.sign {
     background-color: #db5230;
     color: black;
     border: 1px solid #db5230;
-  }
-  
-  .keys {
+}
+
+.keys {
     display: grid;
     grid-gap: 1px;
     grid-template-columns: repeat(4, 1fr);
-  }
-  
-  button {
+}
+
+button {
     height: 40px;
     font-size: 18px;
     background-color: #234567;
@@ -38,9 +38,13 @@
     border: 1px solid #234567;
     transition: 0.3s;
     border-radius: 5px;
-  }
-  
-  .nill {
+}
+
+.nill {
     grid-column: 3 / 1;
-  }
-    
+}
+
+footer {
+    visibility: hidden;
+
+}
